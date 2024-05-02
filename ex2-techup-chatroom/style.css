@@ -1,1 +1,59 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: gray;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  align-self: center;
+  font-weight: 100;
+}
+
+p {
+  padding: 10px 15px 10px 15px;
+  height: 45px;
+  width: 200px;
+  background-color: gray;
+  margin: 0px 20px 10px 20px;
+  border-radius: 60px;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.textbox1,
+.textbox3 {
+  background-color: rgb(73, 196, 31);
+}
+
+.textbox2 {
+  background-color: rgb(233, 233, 233);
+}
+
+.x-button {
+  background-color: lightgray;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
