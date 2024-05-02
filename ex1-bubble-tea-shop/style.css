@@ -3,3 +3,62 @@ body {
 }
 
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: white;
+  width: 640px;
+  height: 322px;
+  position: relative;
+  border: 8px solid white;
+}
+
+.shop-name {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.shop-location {
+  position: absolute;
+  color: white;
+  top: 20px;
+  right: 0px;
+  background-color: rgb(66, 66, 66, 0.6);
+  padding: 6px 20px 6px 20px;
+  font-size: 28px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.bg-grdient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
