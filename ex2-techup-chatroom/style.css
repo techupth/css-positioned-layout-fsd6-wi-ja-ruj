@@ -39,6 +39,7 @@ p {
 .textbox1,
 .textbox3 {
   background-color: rgb(73, 196, 31);
+  position: relative;
 }
 
 .textbox2 {
@@ -56,4 +57,16 @@ p {
   color: white;
   text-align: center;
   font-size: 14px;
+  font-style: italic;
+}
+
+.tail {
+  position: absolute;
+  top: -26px;
+  right: 23px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(30deg);
+  border-radius: 100px;
+  box-shadow: 10px 10px 0 0 rgb(73, 196, 31);
 }
